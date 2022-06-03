@@ -35,7 +35,7 @@ void transactions() {
 			cin >> tran;
 			double newbalance, transact = 0 - tran;
 			if (tran > account(balance, 0.0)) {
-				cout << "You too fucking poor for that." << endl;
+				cout << "You too  poor for that." << endl;
 			}
 			else {
 				newbalance = account(balance,transact);
@@ -52,7 +52,7 @@ void transactions() {
 			cout << "Your new balance is $" << newbalance << endl;
 		}
 		else {
-			cout << "Get the fuck outta here" << endl;
+			cout << "Get the  outta here" << endl;
 			whatdo = 1;
 		}
 	}
@@ -73,11 +73,11 @@ int main() {
 			counter = 4;
 		}
 		else {
-			cout << "Fucking Wrong. You get " << 2 - counter << " more tries." << endl;
+			cout << " Wrong. You get " << 2 - counter << " more tries." << endl;
 			counter++;
 		}
 	}
-	cout << "Aite, get the fuck outta here.";
+	cout << "Aite, get outta here.";
 }
 
  
